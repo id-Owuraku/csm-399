@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Markdown Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Markdown Converter</h1>
+    </header>
+    <nav>
+        <a href="entry.html">Home</a>
+        <a href="index.html">Index</a>
+        <a href="search.html">Search</a>
+        <a href="new.html">New Page</a>
+        <a href="edit.html">Edit Page</a>
+        <a href="random.html">Random Page</a>
+        <a href="markdown.html">Markdown to HTML</a>
+    </nav>
+    <main>
+        <div class="container">
+            <form action="/convert" method="post" class="markdown-form">
+                <label for="user_text" class="markdown-label">Enter your text:</label><br>
+                <textarea id="user_text" name="user_text" rows="4" cols="50" class="markdown-textarea"></textarea><br>
+                <button type="submit" class="markdown-submit">Convert to HTML</button>
+            </form>
+        </div>
+    </main>
+</body>
+</html>

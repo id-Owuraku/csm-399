@@ -1,0 +1,170 @@
+/* Global Styles */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5; /* Light grey background */
+    color: #333; /* Dark grey text */
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333; /* Dark grey header */
+    color: #fff; /* White text */
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav {
+    background-color: #333; /* Dark grey navigation */
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 20px;
+    transition: color 0.3s ease; /* Smooth transition */
+}
+
+nav a:hover {
+    color: #ffeb3b; /* Yellow on hover */
+}
+
+main {
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.container h2 {
+    color: #333; /* Dark grey heading */
+    text-align: center;
+}
+
+.container p {
+    color: #666; /* Medium grey paragraph */
+    text-align: justify;
+}
+
+
+/* Additional Styles for Specific Pages */
+
+.search-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#searchInput {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc; /* Light grey border */
+    border-radius: 20px; /* Rounded corners */
+    margin-right: 10px;
+    width: 70%; /* Adjust width */
+    color: #333; /* Dark grey text */
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff; /* Blue button */
+    color: #fff; /* White text */
+    border: none;
+    border-radius: 20px; /* Rounded corners */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+form {
+    margin-top: 20px;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #333; /* Dark grey label */
+}
+
+input[type="text"], textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc; /* Light grey border */
+    border-radius: 10px; /* Rounded corners */
+    margin-bottom: 20px;
+    color: #333; /* Dark grey text */
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff; /* Blue button */
+    color: #fff; /* White text */
+    border: none;
+    border-radius: 10px; /* Rounded corners */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+
+/* Index Page Styles */
+
+main ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+main ul li {
+    margin-bottom: 10px;
+}
+
+main ul li a {
+    display: block;
+    padding: 10px;
+    background-color: #f5f5f5; /* Light grey background */
+    border: 1px solid #ddd; /* Light grey border */
+    border-radius: 5px;
+    color: #333; /* Dark grey text */
+    text-decoration: none;
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+main ul li a:hover {
+    background-color: #e0e0e0; /* Lighter grey on hover */
+}
+
+
+/* Responsive Styles */
+
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+    
+    nav {
+        padding: 5px 0;
+    }
+    
+    nav a {
+        margin: 0 10px;
+    }
+    
+    #searchInput {
+        width: 60%;
+    }
+}
